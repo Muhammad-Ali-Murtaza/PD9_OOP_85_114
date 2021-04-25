@@ -17,6 +17,7 @@ public class Task1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("Welcome");
         Scanner input = new Scanner(System.in);
         Functions f = new Functions();
         System.out.println("Enter the string:");
