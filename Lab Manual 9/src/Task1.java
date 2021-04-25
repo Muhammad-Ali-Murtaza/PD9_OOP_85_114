@@ -17,7 +17,9 @@ public class Task1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         System.out.println("This task done by 85 and 114");
+
         Scanner input = new Scanner(System.in);
         Functions f = new Functions();
         System.out.println("Enter the string:");
