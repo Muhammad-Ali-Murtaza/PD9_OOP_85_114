@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Task4 {
     public static void main(String[] args) {
-        functions4 f = new functions4();
+        functions f = new functions();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter String for Length Discarder : ");
         String n = input.nextLine();
@@ -41,7 +41,7 @@ public class Task4 {
     }
 }
 
-class functions4{
+class functions{
     // This function is used to count how many times given character
     // repeat in the given String
     public String lengthDiscarder(String s, int length)

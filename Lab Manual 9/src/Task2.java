@@ -18,7 +18,7 @@ public class Task2 {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Functions2 f = new Functions2();
+        Functions f = new Functions();
         System.out.println("Please enter a sentence:");
         String s = input.nextLine();
         System.out.print("Your sentence printed vertically is: \n" + f.displayVertical(s));
@@ -26,7 +26,7 @@ public class Task2 {
 
 }
 
-class Functions2 {
+class Functions {
 
     public String displayVertical(String s) {
 //        char ch[] = new char[s.length()];
